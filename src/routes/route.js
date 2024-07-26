@@ -4,7 +4,6 @@ import { createRouter, createWebHistory } from "vue-router";
 const scrollBehavior = () => {
     return { top: 0 }
 };
-
 const routes = [
     {
         path: "/",
